@@ -27,6 +27,27 @@ This project showcases my ability to:
 * Numpy, Scikit-learn
 * Jupyter Notebook
 
+## Repository Structure
+
+```bash
+simple-ml-chatbot/
+│
+├── README.md            # Project overview
+├── requirements.txt     # Dependencies
+│
+├── notebooks/           # Jupyter notebooks
+│   └── ChatBot.ipynb
+│
+├── data/                # Training data (e.g., intents.json)
+│   └── README.md
+│
+├── models/              # Saved model files after training
+│   └── README.md
+│
+└── src/                 # Source code scripts
+    └── README.md
+```
+
 ## Setup
 
 1. Clone the repository:
