@@ -40,7 +40,14 @@ This project showcases my ability to:
    ```bash
    pip install -r requirements.txt
    ```
-3. Open the notebook:
+3. Download NLTK resources (run this once inside Python):
+
+   ```python
+   import nltk
+   nltk.download('punkt')
+   nltk.download('wordnet')
+   ```
+4. Open the notebook:
 
    ```bash
    jupyter notebook ChatBot.ipynb
